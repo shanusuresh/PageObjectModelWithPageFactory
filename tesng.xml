@@ -7,13 +7,12 @@
         </run>
     </groups>-->
     <test name ="Sample test" verbose="1" >
-<!--         <groups>-->
-<!--               <run>-->
-<!--                   <include name="functional"/>-->
-<!--                   &lt;!&ndash;<include name="negativecase"/>-->
-<!--                   <include name="smoke"/>&ndash;&gt;-->
-<!--               </run>-->
-<!--           </groups>-->
+        <groups>
+             <run>
+                 <include name="functional"/>
+
+             </run>
+   </groups>
         <classes>
             <class name="tests.Test01">
                <!-- <methods>
