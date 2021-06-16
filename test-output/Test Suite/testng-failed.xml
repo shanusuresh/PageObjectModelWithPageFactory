@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Sample test(failed)">
+    <groups>
+      <run>
+        <include name="negativecase"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="tests.Test01">
+        <methods>
+          <include name="verifyMyLeaveInvalid"/>
+        </methods>
+      </class> <!-- tests.Test01 -->
+      <class name="tests.Test02">
+        <methods>
+          <include name="verifyMyLeave01"/>
+        </methods>
+      </class> <!-- tests.Test02 -->
+    </classes>
+  </test> <!-- Sample test(failed) -->
+</suite> <!-- Failed suite [Test Suite] -->

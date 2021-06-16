@@ -1,0 +1,4 @@
+- Base class(initiate driver, launch app,  close the app)
+- Pages(web element locators, methods to access the elements)
+- utils(ExcelReader)
+- Tests(Test cases)
